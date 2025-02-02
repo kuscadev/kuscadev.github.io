@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="tr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Ağ Topolojileri | kusca.dev</title>
+<meta property="og:title" content="Ağ Topolojileri | kusca.dev" />
+<meta name="twitter:title" content="Ağ Topolojileri | kusca.dev" />
+<meta itemprop="name" content="Ağ Topolojileri | kusca.dev" />
+<meta name="application-name" content="Ağ Topolojileri | kusca.dev" />
+<meta property="og:site_name" content="" />
+
+<meta name="description" content="Ağ topolojisi nedir, fiziksel topoloji türleri nelerdir.">
+<meta itemprop="description" content="Ağ topolojisi nedir, fiziksel topoloji türleri nelerdir." />
+<meta property="og:description" content="Ağ topolojisi nedir, fiziksel topoloji türleri nelerdir." />
+<meta name="twitter:description" content="Ağ topolojisi nedir, fiziksel topoloji türleri nelerdir." />
+
+<meta property="og:locale" content="tr" />
+<meta name="language" content="tr" />
+
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/tr/posts/ag-topolojileri/" title="" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.142.0">
+
+    
+    <meta property="og:url" content="http://localhost:1313/tr/posts/ag-topolojileri/">
+  <meta property="og:site_name" content="kusca.dev">
+  <meta property="og:title" content="Ağ Topolojileri">
+  <meta property="og:description" content="Ağ topolojisi nedir, fiziksel topoloji türleri nelerdir.">
+  <meta property="og:locale" content="tr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tr">
+    <meta property="article:published_time" content="2025-02-02T12:00:00+03:00">
+    <meta property="article:modified_time" content="2025-02-02T12:00:00+03:00">
+    <meta property="article:tag" content="Ağ">
+    <meta property="article:tag" content="Topoloji">
+    <meta property="article:tag" content="Network">
+    <meta property="article:tag" content="Topology">
+
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ağ Topolojileri">
+  <meta name="twitter:description" content="Ağ topolojisi nedir, fiziksel topoloji türleri nelerdir.">
+
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/tr/posts/ag-topolojileri/">
+    <link href="/style.min.e390ba7da26222f4dc42a349955d76dbbe44e5ce2535a43de5a70633a0a9ec3c.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    
+    
+</head>
+<body data-theme = "" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title></title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Ağ Topolojileri</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2025-02-02T12:00:00&#43;03:00" itemprop="datePublished"> Feb 2, 2025 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <p>Ağ topolojisini basitçe tanımlayacak olursak <em>bir bilgisayar ağının çeşitli bileşenlerinin düzenlenmesi</em> olarak tanımlayabiliriz. Ağ topolojilerini <strong>fiziksel topoloji</strong> ve <strong>mantıksal topoloji</strong> olarak iki başlık altında sınıflandırmamız mümkündür. Bu yazıda genel olarak fiziksel topoloji türlerinden bahsedeceğim ancak öncesinde kısaca mantıksal topolojiye değinelim.</p>
+<h2 id="mantıksal-topoloji-nedir">Mantıksal Topoloji Nedir?</h2>
+<p>Ağ cihazlarının birbirleriyle olan iletişimlerinde bu iletişimi nasıl kuracaklarını, verilerin ağ içinde nasıl aktarıldığını gösteren topoloji türüne mantıksal topoloji denir.</p>
+<p>Mantıksal topolojiyi aradan çıkardığımıza göre şimdi asıl konumuz olan fiziksel topolojiye dönebiliriz.</p>
+<h2 id="fiziksel-topoloji-nedir">Fiziksel Topoloji Nedir?</h2>
+<p>Fiziksel topoloji, ağı oluştururken kullanılan çevre birimlerini ve fiziksel bağlantı metodlarından bahsederken kullanılan kavramdır. Ağın yapısında kullanılan kablo türü ve ağda kullanılan cihazlar bu topolojide belirtilir. Fiziksel topoloji türlerini <strong>ortak yol (bus)</strong>, <strong>halka (ring)</strong>, <strong>yıldız (star)</strong>, <strong>gelişmiş yıldız (ext star)</strong>, <strong>örgü (mesh)</strong>, <strong>noktadan noktaya (point-to-point)</strong> ve <strong>ağaç (tree)</strong> topolojileri olarak belirtebiliriz.</p>
+<p>Gelin şimdi bu topoloji türlerini teker teker inceleyelim.</p>
+<h3 id="ortak-yol-topolojisi-bus-topology">Ortak Yol Topolojisi (Bus Topology)</h3>
+<p>Ortak yol topolojisinde tüm cihazlar tek bir omurgaya bağlıdır. Bu omurgada tipik olarak koaksiyel kablo kullanılır.
+Ortak yol topolojisinde sinyal tüm cihazları dolaşır. Cihazlar gelen sinyali kontrol eder ve şayet sinyal adresi kendileriyle alakalıysa sinyali işler, değilse pasif davranır ve sinyali bırakır.</p>
+<p>Kullanılan koaksiyel kablonun ince olduğu durumlarda hat uzunluğu maksimum 185 metre, kalın olduğu durumlarda 500 metredir.</p>
+<p>Ağa maksimum 30 cihaz bağlanabilir ve omurganın her iki ucunda sonlandırıcı bulunur. Sinyal hedef cihaza ulaşana kadar hattaki tüm cihazları dolaştığı için ağ performansı düşüktür.</p>
+<p>Özetleyecek olursak ortak yol topolojisinin;</p>
+<h4 id="avantajları">Avantajları:</h4>
+<ul>
+<li>Ağın kurulumu kolaydır.</li>
+<li>Ağa yeni cihaz eklemek kolaydır.</li>
+<li>Ekonomiktir.</li>
+<li>Tüm cihazlar tek bir omurga üzerinde dizili olduğu için kablo kullanımı azdır.</li>
+<li>Switch/Hub gerekmez.</li>
+</ul>
+<h4 id="dezavantajları">Dezavantajları:</h4>
+<ul>
+<li>Ağa bağlanabilecek cihaz sayısı sınırlıdır.</li>
+<li>Hat uzunluğu sınırlıdır. (İnce kabloda 185 metre, kalın kabloda 500 metre.)</li>
+<li>Omurgada yaşanan herhangi bir sıkıntı tüm ağı etkiler.</li>
+<li>Yaşanan sorunların tespit edilmesi ve giderilmesi zordur.</li>
+<li>Bant genişliği düşüktür.</li>
+<li>Eklenen her yeni cihaz ağ performansını düşürür.</li>
+</ul>
+<h3 id="halkta-topolojisi-ring-topology">Halkta Topolojisi (Ring Topology)</h3>
+<p>Halka topolojisinde adından da anlaşılacağı üzere tüm cihazlar bir halka şeklinde birbirine bağlanmıştır. Gönderilen veri alıcıya ulaşana kadar tüm cihazlara teker teker uğrar. Sinyaller bir cihazdan diğerine tek yönlü olarak iletilir. Yani her cihaz kendinden önceki cihaz için bir alıcı, kendinden sonraki cihaz için bir gönderici konumundadır. Gelen sinyal her birimde yeniden oluşturulduğu için sinyal zayıflaması en düşük düzeydedir.</p>
+<p>Ağ üzerindeki veri 3 byte&rsquo;lık jeton (token) adı verilen bir paket ile gönderilir. Bu paket alıcıya ulaşana kadar tüm cihazları dolaşır. Halka topolojisinde merkezde bir <a href="https://networkencyclopedia.com/multistation-access-unit-mau/">MAU (Multistation Access Unit)</a> bulunur.</p>
+<p>50 cihazdan oluşan bir ağ olduğunu düşünürsek ilk cihazdan son cihaza gönderilecek bir veri 49 cihazı teker teker dolaştıktan sonra alıcıya ulaşacaktır.</p>
+<p>Özetleyecek olursak halka topolojisinin;</p>
+<h4 id="avantajları-1">Avantajları:</h4>
+<ul>
+<li>Herhangi bir sunucuya ihtiyaç yoktur.</li>
+<li>Ağda bulunan tüm cihazlar aynı yetkiye sahiptir.</li>
+<li>Ağın büyütülmesinin performansa etkisi düşüktür.</li>
+<li>Kurulumu kolaydır.</li>
+<li>Bu tür topolojilerde çarpışma olasılığı minimumdur.</li>
+</ul>
+<h4 id="dezavantajları-1">Dezavantajları:</h4>
+<ul>
+<li>Kullanılan kablo miktarı fazla olduğu için ve MAU pahalı olduğu için maliyeti yüksektir.</li>
+<li>Cihazların herhangi birinde yaşanan bir arıza tüm ağı etkiler.</li>
+</ul>
+<h3 id="yıldız-topolojisi-star-topology">Yıldız Topolojisi (Star Topology)</h3>
+<p>Her bir cihazın merkezde yer alan bir switch ya da hub&rsquo;a bağlanmasıyla oluşturulan topoloji türüdür. Göndericiden çıkan bir veri önce merkezdeki bu switch veya hub&rsquo;a gider, oradan da alıcı cihaza iletilir.</p>
+<p>Günümüzde en yaygın kullanıma sahip topoloji türüdür. Cihazlar arasındaki bağlantı çift burgulu kablolar ile sağlanır. Ağa bağlı cihazların hub veya switch&rsquo;e olan uzaklıkları maksimum 100 metre olabilir. Bu uzunluğun üstüne çıkıldığı durumlarda performansta büyük düşüşler yaşanır.</p>
+<p>Özetleyecek olursak yıldız topolojisinin;</p>
+<h4 id="avantajları-2">Avantajları:</h4>
+<ul>
+<li>Ağa yeni cihaz eklemek kolaydır.</li>
+<li>Ağda yaşanan bir sorunun tespiti kolaydır.</li>
+<li>Bağlı cihazlardan herhangi birinde yaşanan bir arıza ağın geri kalanını etkilemez.</li>
+<li>Yapısı ve anlaşılması oldukça basittir.</li>
+</ul>
+<h4 id="dezavantajları-2">Dezavantajları:</h4>
+<ul>
+<li>Merkezdeki hub veya switch&rsquo;te yaşanan herhangi bir arıza tüm ağı etkiler.</li>
+<li>Diğer topolojilere kıyasla kablo kullanımı fazladır.</li>
+</ul>
+<h2 id="örgü-topolojisi-mesh-topology">Örgü Topolojisi (Mesh Topology)</h2>
+<p>Örgü topolojisinde ağdaki her cihaz diğer tüm cihazlarla doğrudan bağlantılıdır. Çoğunlukla geniş alan ağları (WAN) arasında kullanılır. Ağa bağlı cihaz sayısının &ldquo;N&rdquo; olduğu bir senaryoda ağ üzerindeki bağlantı sayısı &ldquo;N*(N-1)/2&rdquo; adettir.</p>
+<p>Her cihaz bir dier cihazla bağlantı kurduğu için ağdaki herhangi bir bağlantının kopması durumunda, veri diğer bağlantıları kullanarak alıcıya ulaşabilmektedir.</p>
+<p>Tüm örgü ve kısmi örgü olmak üzere iki çeşidi vardır. Tüm örgüde bütün cihazlar birbiriyle doğrudan bağlantı kurarken kısmi örgüde bir cihazın diğer tüm cihazlarla bağlantı kurmadığı durumlar vardır.</p>
+<p>Bu topolojinin başlıca öne çıkan özellikleri ölçeklenebilirlik, esneklik, sağlamlık ve tutarlı veri aktarımı olarak sıralanabilir. Ayrıca bu topolojide herhangi bir merkeze ihtiyaç olmaması da öne çıkan özelliklerinden bir diğeridir.</p>
+<p>Özetleyecek olursak örgü topolojisinin;</p>
+<h4 id="avantajları-3">Avantajları:</h4>
+<ul>
+<li>Cihazlardan birinde yaşanan herhangi bir arıza ağın genelini etkilemez.</li>
+<li>Veri iletim hızı oldukça yüksektir.</li>
+<li>Ağın genişletilmek istendiği durumlarda diğer bağlantılar etkilenmediği için ağa yeni cihaz eklemek kolaydır.</li>
+</ul>
+<h4 id="dezavantajları-3">Dezavantajları:</h4>
+<ul>
+<li>Bağlantı sayısının çok fazla olmasından dolayı karmaşık bir yapıya sahiptir.</li>
+<li>Her cihaz birbiriyle bağlandığı için çok fazla kablo gerekir, haliyle maliyet yüksektir.</li>
+</ul>
+<h2 id="noktadan-noktaya-topoloji-point-to-point-topology">Noktadan Noktaya Topoloji (Point-to-Point Topology)</h2>
+<p>Bir alıcı ve bir göndericiden oluşan en temel topolojidir. Bu topolojide veri aktarımı tek yönlü olabileceği gibi çift yönlü de olabilir. Bağlantı bir kablo aracılığıyla olabileceği gibi kablosuz olarak da kurulabilir.</p>
+<p>Yalnızca alıcı ve göndericiden oluştuğu için veri güvenliği bakımından avantajlı bir konumdadır.</p>
+<p>Özetleyecek olursak noktadan noktaya topolojinin;</p>
+<h4 id="avantajları-4">Avantajları:</h4>
+<ul>
+<li>Yüksek bant genişliğine sahiptir.</li>
+<li>Yalnızca iki cihaz arasında bağlantı kurulduğu için oldukça hızlı ve güvenlidir.</li>
+<li>Kurulumu ve bakımı kolaydır.</li>
+</ul>
+<h4 id="dezavantajları-4">Dezavantajları:</h4>
+<ul>
+<li>Cihazlar arasında tek bir bağlantı olduğu için bu bağlantının zarar görmesi durumunda ağ çöker.</li>
+<li>Yine sadece iki cihazdan oluşan bir bağlantı olduğu için iki cihazdan herhangi birinin bozulması durumunda ağ kullanılamaz hale gelir.</li>
+</ul>
+<h2 id="ağaç-topolojisi-tree-topology">Ağaç Topolojisi (Tree Topology)</h2>
+<p>Temel olarak yıldız topolojisi ve ortak yol topolojilerinin birleşimi şeklinde oluşmuş bir topolojidir. Yıldız şeklinde oluşturulmuş dalların bir omurga üzerinde toplanmasıyla oluşturulur.</p>
+<p>Ayrıca bir başka yönden de ağaç topolojisi gelişmiş yıldız topolojisine benzerlik göstermektedir. Aralarındaki fark ise ağaç topolojisinde herhangi bir merkezi düğüme ihtiyaç duyulmamasıdır.</p>
+<p>Ağaç topolojisi büyük ağların omurgasını oluşturmak için kullanılır.</p>
+<p><strong>Omurga ağacı (backbone tree)</strong> ve <strong>ikili ağaç (binary tree)</strong> olarak iki farklı yapıda oluşturulabilir. Omurga ağaç düzeninde bütün düğümler hiyerarşik bir düzen içinde alt dallara ayrılır. İkili ağaç düzeninde ise her düğüm sadece iki dala bölünerek yapıyı oluşturur. Ağaç topolojisinde verinin akışı hiyerarşik bir düzen içindedir. Bu yüzden bu topoloji <strong>Hiyerarşik Ağaç Topolojisi (hierarchical tree topology)</strong> olarak da adlandırılmaktadır.</p>
+<p>Özetleyecek olursak ağaç topolojisinin;</p>
+<h4 id="avantajları-5">Avantajları:</h4>
+<ul>
+<li>Alt cihazlar arasındaki bağlantıda yaşanan bir arıza ağın genelini etkilemez.</li>
+<li>Hata tespiti kolaydır.</li>
+<li>Farklı donanım üreticilerinin ürünleri uyum içinde çalışabilir.</li>
+</ul>
+<h4 id="dezavantajları-5">Dezavantajları:</h4>
+<ul>
+<li>Kullanılan kablo türüne göre alt cihazlar arasındaki mesafe limitli olabilir.</li>
+<li>Ana omurgada yaşanan bir arıza tüm ağın çökmesine neden olur.</li>
+<li>Ana omurgada aşırı trafik olması durumunda çarpışmalar ve gecikmeler yaşanabilir.</li>
+</ul>
+<h2 id="özet">Özet</h2>
+<p>Ağ topolojisi, bir bilgisayar ağındaki cihazların nasıl bağlandığını ve veri iletim sürecinin nasıl işlediğini belirleyen yapıdır. Mantıksal topoloji, verinin ağ içinde nasıl aktığını gösterirken, fiziksel topoloji ise cihazların fiziksel olarak nasıl bağlandığını tanımlar.</p>
+<p>Fiziksel topolojiler arasında en yaygın olanlardan biri yıldız topolojisidir; burada tüm cihazlar merkezi bir noktaya bağlanır, böylece yönetimi kolaydır ancak merkezde bir sorun olursa tüm ağ etkilenir. Ortak yol (bus) topolojisi, tek bir hat üzerinden iletişimi sağlar ama cihaz sayısı arttıkça performans düşer. Halka topolojisinde veri, cihazlar arasında sırayla dolaşır; bu yapı çarpışmaları önler ama bir cihaz bozulursa tüm ağ aksayabilir. Örgü topolojisi, her cihazın diğerleriyle bağlantılı olduğu güvenli ancak maliyetli bir yapıdır. Noktadan noktaya topoloji, en basit bağlantıyı sağlar ama sadece iki cihaz arasında çalışır. Ağaç topolojisi ise büyük ağlar için kullanılır ve verinin hiyerarşik bir düzende iletilmesini sağlar.</p>
+<p>Sonuç olarak, her topolojinin kendine özgü avantajları ve dezavantajları vardır. Kullanım alanına göre en uygun yapı seçilerek ağın performansı ve güvenilirliği sağlanabilir.</p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+</div>
+    <small class="footer_copyright">
+        © 2025 .
+        
+    </small>
+</footer>
+
+
+
+
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>

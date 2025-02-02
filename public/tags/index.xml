@@ -5,6 +5,51 @@
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on kusca.dev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>tr</language>
+    <lastBuildDate>Sun, 02 Feb 2025 12:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ağ</title>
+      <link>http://localhost:1313/tags/a%C4%9F/</link>
+      <pubDate>Sun, 02 Feb 2025 12:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/a%C4%9F/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>http://localhost:1313/tags/network/</link>
+      <pubDate>Sun, 02 Feb 2025 12:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/network/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Topology</title>
+      <link>http://localhost:1313/tags/topology/</link>
+      <pubDate>Sun, 02 Feb 2025 12:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/topology/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Topoloji</title>
+      <link>http://localhost:1313/tags/topoloji/</link>
+      <pubDate>Sun, 02 Feb 2025 12:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/topoloji/</guid>
+      
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
