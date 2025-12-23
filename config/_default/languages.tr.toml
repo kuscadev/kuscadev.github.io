@@ -1,0 +1,31 @@
+disabled = false
+languageCode = "tr"
+languageName = "Türkçe"
+weight = 1
+title = "kuscadev"
+
+[params]
+  displayName = "TR"
+  isoCode = "tr"
+  rtl = false
+  dateFormat = "2 January 2006"
+   logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+ [params.author]
+   name = "Oğuzhan Kuşca"
+   email = "kuscadev@outlook.com"
+   image = "img/profile.jpeg"
+   imageQuality = 96
+   headline = "YBS | Python | Linux"
+   bio = "Selam ben Oğuzhan. Yönetim Bilişim Sistemleri (YBS) perspektifiyle; Linux ve Python kullanarak operasyonel süreçleri optimize ediyor, teknoloji stratejilerini analiz ediyorum. Kodun iş değerine dönüştüğü yerdeyim."
+   links = [
+     { email = "mailto:kuscadev@outlook.com" },
+     { github = "https://github.com/username" },
+     { linkedin = "https://www.linkedin.com/in/oguzhankusca/" },
+     { medium = "https://medium.com/@kuscadev" },
+     {rss-square = "https://kuscadev.github.io/index.xml"}
+   ]
+

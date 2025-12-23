@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kategoriler on kuscadev</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Kategoriler on kuscadev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <managingEditor>kuscadev@outlook.com (Oğuzhan Kuşca)</managingEditor>
+    <webMaster>kuscadev@outlook.com (Oğuzhan Kuşca)</webMaster>
+    <copyright>© 2025 Oğuzhan Kuşca</copyright>
+    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Araçlar</title>
+      <link>http://localhost:1313/categories/ara%C3%A7lar/</link>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
+      <guid>http://localhost:1313/categories/ara%C3%A7lar/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Fikir</title>
+      <link>http://localhost:1313/categories/fikir/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
+      <guid>http://localhost:1313/categories/fikir/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/categories/linux/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
+      <guid>http://localhost:1313/categories/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Nasıl Yapılır</title>
+      <link>http://localhost:1313/categories/nas%C4%B1l-yap%C4%B1l%C4%B1r/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
+      <guid>http://localhost:1313/categories/nas%C4%B1l-yap%C4%B1l%C4%B1r/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Web Geliştirme</title>
+      <link>http://localhost:1313/categories/web-geli%C5%9Ftirme/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
+      <guid>http://localhost:1313/categories/web-geli%C5%9Ftirme/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

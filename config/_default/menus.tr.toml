@@ -1,0 +1,23 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "Blog"
+pageRef = "/blog/"
+identifier = "akGerKqw57"
+weight = 1_999
+
+[[main]]
+name = "Kategoriler"
+pageRef = "/categories/"
+identifier = "wblWiEonVH"
+weight = 2_999
+
+[[main]]
+name = "Projeler"
+pageRef = "/projects/"
+identifier = "projects-page"
+weight = 3_999
+
+[[footer]]
+none = "none"

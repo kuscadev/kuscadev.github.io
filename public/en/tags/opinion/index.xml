@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opinion on kuscadev</title>
+    <link>http://localhost:1313/en/tags/opinion/</link>
+    <description>Recent content in Opinion on kuscadev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-en</language>
+    <managingEditor>kuscadev@outlook.com (Oğuzhan Kuşca)</managingEditor>
+    <webMaster>kuscadev@outlook.com (Oğuzhan Kuşca)</webMaster>
+    <copyright>© 2025 Oğuzhan Kuşca</copyright>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Browser or Product Showcase? How Mozilla Lost Its Way</title>
+      <link>http://localhost:1313/en/blog/mozilla/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
+      <guid>http://localhost:1313/en/blog/mozilla/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/mozilla/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

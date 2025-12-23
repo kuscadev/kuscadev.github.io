@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on kuscadev</title>
+    <link>http://localhost:1313/categories/linux/</link>
+    <description>Recent content in Linux on kuscadev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <managingEditor>kuscadev@outlook.com (Oğuzhan Kuşca)</managingEditor>
+    <webMaster>kuscadev@outlook.com (Oğuzhan Kuşca)</webMaster>
+    <copyright>© 2025 Oğuzhan Kuşca</copyright>
+    <lastBuildDate>Mon, 21 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Distrobox ile Cisco Packet Tracer Kurulumu</title>
+      <link>http://localhost:1313/blog/distrobox-packet-tracer-kurulumu/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
+      <guid>http://localhost:1313/blog/distrobox-packet-tracer-kurulumu/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/distrobox-packet-tracer-kurulumu/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

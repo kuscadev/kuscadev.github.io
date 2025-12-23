@@ -1,0 +1,4 @@
+---
+title: "Projelerim"
+layout: "list"
+---

@@ -1,0 +1,30 @@
+disabled = false
+languageCode = "en-en"
+languageName = "English"
+weight = 2
+title = "kuscadev"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+   logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+ [params.author]
+   name = "Oğuzhan Kuşca"
+   email = "kuscadev@outlook.com"
+   image = "img/profile.jpeg"
+   imageQuality = 96
+   headline = "MIS | Python | Linux"
+   bio = "Hi I'm Oğuzhan. With a Management Information Systems (MIS) perspective, I optimize operational workflows using Linux & Python and analyze tech strategies. I stand where code transforms into business value."
+   links = [
+     { email = "mailto:kuscadev@outlook.com" },
+     { github = "https://github.com/username" },
+     { linkedin = "https://www.linkedin.com/in/oguzhankusca/" },
+     { medium = "https://medium.com/@kuscadev" },
+     {rss-square = "https://kuscadev.github.io/index.xml"}
+   ]
