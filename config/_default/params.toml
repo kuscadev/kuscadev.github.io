@@ -151,11 +151,11 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # domain = "llama.yoursite.com"
 
 [umamiAnalytics]
-  # websiteid = "ABC12345"
-  # domain = "llama.yoursite.com"
-  # dataDomains = "yoursite.com,yoursite2.com"
-  # scriptName = ""
-  # enableTrackEvent = true
+  websiteid = "8bf53c46-4b4e-482c-a612-b23bba8217bd"
+  domain = "cloud.umami.is"
+  dataDomains = "kuscadev.github.io"
+  scriptName = ""
+  enableTrackEvent = true
 
 [selineAnalytics]
   # token = "XXXXXX"
@@ -169,7 +169,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # globalWidgetPosition = "right"
 
 [verification]
-  # google = ""
+  google = "<meta name="google-site-verification" content="P7oc96YCTLZ1MRXIgjJTB0NL8QC0-n9tXbtw2wRHDKY" />"
   # bing = ""
   # pinterest = ""
   # yandex = ""
