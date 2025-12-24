@@ -72,5 +72,4 @@ Yine terminale dönüyoruz.
 distrobox-export --app packettracer
 ```
 Artık Packet Tracer'a uygulama menünüz üzerinden erişebilir ve kullanabilirsiniz. Artık terminalle de bir işimiz kalmadığı için terminali de kapatabilirsiniz.   
-Eğer bu içerik hoşuna gittiyse [Ağ Topolojilerinden bahsettiğim yazıma](https://kusca.dev/blog/01-ag-topolojisi/ag-topolojisi-nedir) da göz atmak isteyebilirsin…   
-   
+

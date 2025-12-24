@@ -2,7 +2,7 @@
 title: "Browser or Product Showcase? How Mozilla Lost Its Way"   
 description: "Is Firefox losing its identity? A deep dive into Mozilla’s decline, from its Google dependency and the controversial PPA decision to its shift from a 'people's browser' to a subscription showroom."
 date: 2025-12-24
-draft: true    
+draft: false    
 tags: ["mozilla", "firefox", "opinion", "privacy"]
 categories: ["opinion"]
 ---
@@ -205,6 +205,6 @@ But there’s a massive doctrinal contradiction here. AI models need data—and 
 
 The story of Firefox is ultimately the answer to one question: "Who is the internet for?" Today, Chromium-based browsers control over 90% of the market. We are living in a monoculture where Google effectively dictates web standards. Gecko is the last fortress protecting digital biodiversity.
 
-But fortresses are only as strong as the conviction of the people inside. If Mozilla cannot return to the radical transparency and user-centricity of its founding manifesto, Firefox faces the same fate as Netscape.
+If Mozilla cannot return to the radical transparency and user-centricity of its founding manifesto, Firefox faces the same fate as Netscape.
 
 Mozilla doesn't need to ship a flashy new feature today. It needs to sit down and re-declare what it will never do. Firefox isn't just an "option"; for many of us, it’s a stance. It’s time Mozilla started acting like it.

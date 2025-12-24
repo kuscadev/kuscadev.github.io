@@ -2,7 +2,7 @@
 title: "Tarayıcı mı, Teknoloji Vitrini mi? Mozilla Odağını Nasıl Kaybetti?"   
 description: "Firefox neden kan kaybediyor? Mozilla'nın Google bağımlılığı, tartışmalı PPA kararı ve bir özgürlük simgesinden 'abonelik vitrinine' dönüşen kimlik krizine dair derinlemesine bir analiz."
 date: 2025-12-24
-draft: true
+draft: false
 tags: ["mozilla", "firefox", "fikir", "gizlilik"]
 categories: ["fikir"]
 ---
@@ -216,8 +216,6 @@ Sadık Firefox kullanıcısı, tarayıcısının onun adına alışveriş listes
 Firefox’un hikayesi, sadece bir yazılımın pazar payı savaşı değildir; bu, internetin "kimin için" var olacağı sorusunun cevabıdır.
 
 Bugün geldiğimiz noktada, tarayıcı pazarının %90’ından fazlası Chromium tabanlı (Blink motorlu) tarayıcıların kontrolü altında. Bu, web standartlarının nasıl belirleneceğinden, hangi teknolojilerin destekleneceğine kadar her şeyin, fiilen tek bir şirketin (Google) veya tek bir kod tabanının inisiyatifine kalması demektir. Gecko motoru, bu monokültüre karşı duran, biyolojik çeşitliliği sağlayan son kaledir.
-
-Ancak kaleler, sadece duvarlarının kalınlığıyla değil, içindeki garnizonun inancıyla ayakta kalır.
 
 Mozilla’nın son on yılda çizdiği tablo; finansal olarak Google’a bağımlı, yönetimsel olarak odak kaybı yaşayan ve topluluğuyla arasındaki güven bağını zayıflatan bir yapıya işaret ediyor. PPA krizi, işten çıkarmalar ve yönetim zafiyetleri, bu yapının çatırdadığını gösteren uyarı işaretleridir.
 

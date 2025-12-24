@@ -9,7 +9,47 @@
     <managingEditor>kuscadev@outlook.com (Oğuzhan Kuşca)</managingEditor>
     <webMaster>kuscadev@outlook.com (Oğuzhan Kuşca)</webMaster>
     <copyright>© 2025 Oğuzhan Kuşca</copyright>
-    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Firefox</title>
+      <link>http://localhost:1313/en/tags/firefox/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
+      <guid>http://localhost:1313/en/tags/firefox/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mozilla</title>
+      <link>http://localhost:1313/en/tags/mozilla/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
+      <guid>http://localhost:1313/en/tags/mozilla/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Opinion</title>
+      <link>http://localhost:1313/en/tags/opinion/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
+      <guid>http://localhost:1313/en/tags/opinion/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>http://localhost:1313/en/tags/privacy/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
+      <guid>http://localhost:1313/en/tags/privacy/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Automation</title>
@@ -47,36 +87,6 @@
       <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
       <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
       <guid>http://localhost:1313/en/tags/python/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Cisco</title>
-      <link>http://localhost:1313/en/tags/cisco/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
-      <guid>http://localhost:1313/en/tags/cisco/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Distrobox</title>
-      <link>http://localhost:1313/en/tags/distrobox/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
-      <guid>http://localhost:1313/en/tags/distrobox/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Packet Tracer</title>
-      <link>http://localhost:1313/en/tags/packet-tracer/</link>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-      <author>kuscadev@outlook.com (Oğuzhan Kuşca)</author>
-      <guid>http://localhost:1313/en/tags/packet-tracer/</guid>
       <description></description>
       
     </item>
