@@ -46,16 +46,16 @@ Akademik geçmişim ve yön değişimlerim:
 Aktif olarak kullandığım ve üzerine düşündüğüm teknolojiler:
 
 **İşletim Sistemi & Ortam**
-- {{< badge >}}Debian Linux{{< /badge >}}
+- Debian Linux & Windows 10
 
 **Geliştirme & Otomasyon**
-- {{< badge >}}Python{{< /badge >}}
-- {{< badge >}}Bash{{< /badge >}}
-- {{< badge >}}Git{{< /badge >}}
+- Python
+- Bash
+- Git
 
 **Web Temelleri**
-- {{< badge >}}HTML{{< /badge >}}
-- {{< badge >}}CSS{{< /badge >}}
+- HTML
+- CSS
 
 Araçlardan çok, bu araçlarla **nasıl ve neden** üretildiğiyle ilgileniyorum.
 

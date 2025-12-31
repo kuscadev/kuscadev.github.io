@@ -4,7 +4,7 @@ description: "A lightweight Python automation tool that instantly organizes mess
 date: 2025-12-08
 draft: false
 tags: ["python", "automation", "linux", "open-source"]
-categories: ["Araçlar"]
+categories: ["Tools"]
 ---
 
 

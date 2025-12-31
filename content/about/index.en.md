@@ -42,18 +42,18 @@ Technologies I actively use and think about:
 
 **Operating System & Environment**
 
-- {{< badge >}}Debian Linux{{< /badge >}}
+- Debian Linux & Windows 10
 
 **Development & Automation**
 
-- {{< badge >}}Python{{< /badge >}}
-- {{< badge >}}Bash{{< /badge >}}
-- {{< badge >}}Git{{< /badge >}}
+- Python
+- Bash
+- Git
 
 **Web Fundamentals**
 
-- {{< badge >}}HTML{{< /badge >}}
-- {{< badge >}}CSS{{< /badge >}}
+- HTML
+- CSS
 
 I’m less interested in tools themselves, and more in **how and why** they are used.
 
