@@ -1,6 +1,6 @@
 disabled = false
-languageCode = "tr"
-languageName = "Türkçe"
+locale = "tr"
+label = "Türkçe"
 weight = 1
 title = "kuscadev"
 
@@ -25,6 +25,7 @@ title = "kuscadev"
      { email = "mailto:kuscadev@outlook.com" },
      { github = "https://github.com/kuscadev" },
      { linkedin = "https://www.linkedin.com/in/oguzhankusca/" },
+     { mastodon = "https://mastodon.social/@kuscadev" },
      { medium = "https://medium.com/@kuscadev" },
      {rss-square = "https://kuscadev.github.io/index.xml"}
    ]
