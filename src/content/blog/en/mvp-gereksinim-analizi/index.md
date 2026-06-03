@@ -5,7 +5,6 @@ description: "Why do most MVPs fail to provide value? Discover how requirements 
 
 translationKey: "mvp-gereksinim-analizi"
 tags: ["MVP", "Requirements Analysis", "Business Analysis", "Product Management", "MIS"]
-slug: "minimum-product-maximum-clarity-mvp-analysis"
 ---
 >*As we wrap up 2025, I wanted to share a final piece reflecting on my journey in Business Analysis and MIS. This year has been about growth, and what better way to close it than discussing the intersection of MVP and clarity? Thank you for being part of my journey this year. See you in 2026, with more insights, experiments, and reflections on building meaningful products. (P.S. If the calendar flipped before you got here, consider this a tiny MVP: a minimal yet meaningful wish for your 2026!)*
 
