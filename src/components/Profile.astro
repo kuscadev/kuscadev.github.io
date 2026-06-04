@@ -5,7 +5,7 @@ import { Icon } from "astro-icon/components";
 import { AUTHOR, SOCIALS } from "../config";
 import avatarImage from "../assets/profile.jpg";
 import { getRelativeLocaleUrl } from "astro:i18n";
-
+import { defaultLang } from "../i18n/ui";
 const lang = getLangFromUrl(Astro.url);
 const role = AUTHOR.role[lang as keyof typeof AUTHOR.role] ?? AUTHOR.role.en;
 const bio = AUTHOR.bio[lang as keyof typeof AUTHOR.bio] ?? AUTHOR.bio.en;
@@ -32,7 +32,11 @@ const bio = AUTHOR.bio[lang as keyof typeof AUTHOR.bio] ?? AUTHOR.bio.en;
         {
             SOCIALS.map((social) => {
                 const href =
-                    social.label === "RSS" ? getRelativeLocaleUrl(lang, "rss.xml") : social.href;
+                    social.label === "RSS"
+                        ? lang === defaultLang
+                            ? "/rss.xml"
+                            : `/${lang}/rss.xml`
+                        : social.href;
 
                 return (
                     <a
