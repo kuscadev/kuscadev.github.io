@@ -31,7 +31,7 @@ While I know basic Bash, writing complex shell scripts isn't my forte yet, so I 
 
 Gemini grasped the issue and generated this quick script:
 
-```Bash
+```bash
 #!/bin/bash
 
 # Wait until the Wayland socket and outputs are ready (max 5 seconds)
