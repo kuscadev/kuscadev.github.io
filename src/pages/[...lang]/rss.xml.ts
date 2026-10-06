@@ -33,11 +33,13 @@ export async function GET(context: any) {
         ? `<content:encoded><![CDATA[${post.body}]]></content:encoded>`
         : "";
 
+      const postLink = post.data.external_url || getRelativeLocaleUrl(currentLang, `blog/${slugWithoutLang}`);
+
       return {
         title: post.data.title,
         pubDate: post.data.pubDate,
         description: post.data.description,
-        link: getRelativeLocaleUrl(currentLang, `blog/${slugWithoutLang}`),
+        link: postLink,
         content: htmlContent,
         customData: !htmlContent ? bodyContent : "",
       };
