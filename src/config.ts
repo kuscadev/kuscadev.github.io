@@ -61,6 +61,12 @@ export const SOCIALS = [
     label: "Mastodon",
     href: "https://mastodon.social/@kuscadev",
     icon: "mdi:mastodon",
+    rel: "me",
+  },
+  {
+    label: "Bluesky",
+    href: "https://bsky.app/profile/ogzk.tr",
+    icon: "simple-icons:bluesky",
   },
   {
     label: "Medium",
