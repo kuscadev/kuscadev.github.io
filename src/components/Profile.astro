@@ -29,28 +29,33 @@ const bio = AUTHOR.bio[lang as keyof typeof AUTHOR.bio] ?? AUTHOR.bio.en;
     </div>
 
     <div class="socials">
-        {
-            SOCIALS.map((social) => {
-                const href =
-                    social.label === "RSS"
-                        ? lang === defaultLang
-                            ? "/rss.xml"
-                            : `/${lang}/rss.xml`
-                        : social.href;
+    {
+        SOCIALS.map((social) => {
+            const href =
+                social.label === "RSS"
+                    ? lang === defaultLang
+                        ? "/rss.xml"
+                        : `/${lang}/rss.xml`
+                    : social.href;
 
-                return (
-                    <a
-                        href={href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label={social.label}
-                    >
-                        <Icon name={social.icon} />
-                    </a>
-                );
-            })
-        }
-    </div>
+            const rel =
+                social.label === "Mastodon"
+                    ? "me noopener noreferrer"
+                    : "noopener noreferrer";
+
+            return (
+                <a
+                    href={href}
+                    target="_blank"
+                    rel={rel}
+                    aria-label={social.label}
+                >
+                    <Icon name={social.icon} />
+                </a>
+            );
+        })
+    }
+</div>
 </div>
 
 <style>
